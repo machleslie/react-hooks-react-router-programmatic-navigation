@@ -39,7 +39,7 @@ function Login({ setIsLoggedIn }) {
         value={formData.password}
         onChange={handleChange}
       />
-      <button type="submit">Login</button>
+      <button type="submit" onChange={handleChange}>Login</button>
     </form>
   );
 }
